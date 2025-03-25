@@ -4,8 +4,13 @@ metadata:
   name: mealie-ingress
   namespace: mealie
   annotations:
-    traefik.ingress.kubernetes.io/router.entrypoints: web
+    cert-manager.io/cluster-issuer: letsencrypt-cloudflare
+    traefik.ingress.kubernetes.io/router.entrypoints: websecure
 spec:
+  tls:
+    - hosts:
+        - mealie.briangreen.io
+      secretName: mealie-briangreen-io-tls
   rules:
     - host: mealie.briangreen.io
       http:
