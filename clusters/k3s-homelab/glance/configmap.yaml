@@ -71,7 +71,7 @@ data:
         - size: small
           widgets:
             - type: weather
-              location: Richmond, VA
+              location: Richmond, Virginia, United States
               units: imperial
               hour-format: 12h
               hide-location: true
