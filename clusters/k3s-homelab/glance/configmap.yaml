@@ -21,12 +21,17 @@ data:
                 - url: https://selfh.st/rss/
                   title: selfh.st
                   limit: 4
-                - url: https://ciechanow.ski/atom.xml
-                - url: https://www.joshwcomeau.com/rss.xml
-                  title: Josh Comeau
                 - url: https://samwho.dev/rss.xml
-                - url: https://ishadeed.com/feed.xml
-                  title: Ahmad Shadeed
+                - url: https://www.cncf.io/feed/
+                - url: https://blog.golang.org/feed.atom
+                - url: https://netflixtechblog.com/feed
+                - url: https://softwareengineeringdaily.com/feed/
+                - url: https://kubernetes.io/feed.xml
+                - url: https://kotaku.com/rss
+                - url: https://www.polygon.com/rss/index.xml
+                - url: https://www.rockpapershotgun.com/feed
+                - url: https://huntinglife.com/feed/
+                - url: https://www.tinkertry.com/feed
 
             - type: twitch-channels
               channels:
